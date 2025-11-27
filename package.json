@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon index.ts",
+    "dev": "ts-node-dev index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "nodemon": "^3.1.11",
-    "@vercel/node": "^3.0.0"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
